@@ -7,7 +7,7 @@ function feetToMile(feet){
         let mile = feet / 5280;
         return mile;
     }
-};
+}
 var resultMile = feetToMile(12000).toFixed(2);
 console.log(resultMile);
 
